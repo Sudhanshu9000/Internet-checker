@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #614385, #516395);
+}
+
+.container{
+    max-width: 700px;
+    height: 400px;
+    margin: 200px auto;
+    
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 25px rgba(90, 87, 87, 0.3);
+}
+
+.status{
+    margin-top: 50px;
+    letter-spacing: 3px;
+    line-height: 2;
+}
+.container h1{
+    background-color: rgb(169, 215, 214);
+   text-align: center;
+   border-radius: 6px;
+   margin-bottom: 20px;
+}
+
+.container p{
+    font-size: 30px;
+}
