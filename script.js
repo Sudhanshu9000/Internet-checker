@@ -30,10 +30,14 @@ function checkInternetConnection(){
           networkStrengthText.style.color = 'blue';
 
        })
+       .catch(()=>{
+        statusText.textContent = 'Disconnected';
+        ipAddressText.textContent = '---'
+       })
 
     }else{
         statusText.textContent = 'Disconnected';
-        ipAddressText.textContent = '----------'
-        networkStrengthText.textContent = '------'
+        ipAddressText.textContent = '---'
+        networkStrengthText.textContent = '---'
     }
 }
